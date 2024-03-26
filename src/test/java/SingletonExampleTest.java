@@ -19,7 +19,7 @@ public class SingletonExampleTest {
     @Test
     public void testSingletonDoSomething() {
         SingletonExample instance = SingletonExample.getInstance();
-        
+
         instance.doSomething();
     }
 }
